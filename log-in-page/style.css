@@ -1,0 +1,118 @@
+.bg  {
+    background-color: #f9eaff;
+    width: 100%;
+    height: 100vh;
+}
+
+.form-bg {
+    background-color: white;
+}
+
+.col-center {
+    margin-top: auto;
+    margin-bottom:auto;
+}
+
+h3 {
+    margin-bottom: 30px;
+    color: #8353cd;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.right-card {
+    /* background-color: #8353cd; */
+    background-image: url(./Capture.PNG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form-style {
+    margin: 50px;
+}
+
+.button-style {
+    background-color: #e16ecd;
+    width: 70%;
+    height: 40px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 50px;
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+}
+
+a {
+    color: #8353cd;
+}
+
+label {
+    color: rgb(204, 198, 198);
+    width:100%;
+}
+
+.label-margin {
+    margin-top: 30px;
+}
+
+p {
+    margin-top: 20px;
+    color: rgb(204, 198, 198);
+    text-align: center;
+}
+
+input[type="text"] {
+    width:100%;
+    height: 32px;
+    border-color: rgb(204, 198, 198);;
+    border-width: 1px;
+    border-style: solid;
+    margin-top: 10px;
+    color: grey;
+}
+
+input[type="password"] {
+    width:100%;
+    height: 32px;
+    border-color: rgb(204, 198, 198);;
+    border-width: 1px;
+    border-style: solid;
+    margin-top: 10px;
+    color: grey;
+}
+
+input[type="text"]:focus {
+    outline: none;
+
+}
+
+input[type="password"]:focus {
+    outline: none;
+}
+
+.margin-style {
+    margin-top: 15px;
+}
+
+
+input[type="checkbox"]:checked {
+    box-shadow: none !important;
+    background-color: #8353cd;
+    outline: 0 !important;
+  }
+
+input[type="checkbox"]:focus {
+    box-shadow: none !important;
+    background-color: none;
+}
+
+.card-text {
+    color:white;
+    margin-top:80%;
+    margin-left:15%;
+    font-size: 25px;
+    text-align:start;
+    font-weight: bold;
+}
