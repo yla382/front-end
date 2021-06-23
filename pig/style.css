@@ -1,0 +1,128 @@
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+	box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
+	overflow: hidden;
+  background: #fff;
+  color: #333;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-color: #ffdcb5;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.pig-head {
+	height: 200px;
+	width: 200px;
+	background-color: #f7949a;
+	border-radius: 50%;
+}
+
+.pig-nose {
+	height: 55px;
+	width: 70px;
+	background-color: #ffb7bc;
+	border-radius: 50%;
+	position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.pig-nose-trill-1 {
+	height: 16px;
+	width: 16px;
+	background-color: #ce666d;
+	border-radius: 50%;
+	position: absolute;
+	top: 35%;
+  left: 20%;
+}
+
+.pig-nose-trill-2 {
+	height: 16px;
+	width: 16px;
+	background-color: #ce666d;
+	border-radius: 50%;
+	position: absolute;
+	top: 35%;
+  right: 20%;
+}
+
+.pig-eye-1{
+	height: 27px;
+	width: 27px;
+	background-color: white;
+	border-radius: 50%;
+	position:absolute;
+	top: 50%;
+	left: 25%;
+	transform: translate(-50%,-50%);
+	animation: eye-close 2s infinite;
+}
+
+.pig-eye-2{
+	height: 27px;
+	width: 27px;
+	background-color: white;
+	border-radius: 50%;
+	position:absolute;
+	top: 50%;
+	right: 14%;
+	transform: translate(-50%,-50%);
+	animation: eye-close 2s infinite;
+}
+
+@keyframes eye-close {
+	0% {
+		height: 27px;
+	}
+	
+	10% {
+		height: 0px;
+	}
+	
+	20% {
+		height:27px;
+	}
+}
+
+.black-iris {
+	height: 5px;
+	width: 5px;
+	background-color: black;
+	border-radius: 50%;
+	position:absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	// animation: iris-gone 1s infinite;
+}
+
+@keyframes iris-gone {
+	0% {
+		background-color:black;
+	}
+	
+	10% {
+		background-color:#f7949a;
+	}
+	
+	20% {
+		background-color:black;
+	}
+
+}
