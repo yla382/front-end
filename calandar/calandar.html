@@ -1,24 +1,38 @@
-<div class="calandar-container">
-  <div class="calandar">
-    <input type="hidden" id="current_month">
-    <input type="hidden" id="current_year">
-    <div class="month">
-      <ul>
-        <li class="prev">&#10094;</li>
-        <li class="next">&#10095;</li>
-        <li id="month_year"></li>
-       </ul>
-     </div>
-     <table class="calandar-table">
-       <tr>
-        <th>Su</th>
-        <th>Mo</th>
-        <th>Tu</th>
-        <th>We</th>
-        <th>Th</th>
-        <th>Fr</th>
-        <th>Sa</th>
-      </tr>
-    </table>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+    <link rel="stylesheet" href="calandar.css">
+   </head>
+  <body>
+    <div class="calandar-container">
+      <div class="calandar">
+        <input type="hidden" id="current_month">
+        <input type="hidden" id="current_year">
+        <div class="month">
+          <ul>
+            <li class="prev">&#10094;</li>
+            <li class="next">&#10095;</li>
+            <li id="month_year"></li>
+           </ul>
+         </div>
+         <table class="calandar-table">
+           <tr>
+            <th>Su</th>
+            <th>Mo</th>
+            <th>Tu</th>
+            <th>We</th>
+            <th>Th</th>
+            <th>Fr</th>
+            <th>Sa</th>
+          </tr>
+        </table>
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.min.js" integrity="sha384-PsUw7Xwds7x08Ew3exXhqzbhuEYmA2xnwc8BuD6SEr+UmEHlX8/MCltYEodzWA4u" crossorigin="anonymous"></script>
+      <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+      <script src="calandar.js"></script>
+     </body>
   </div>
-</div>
+</html>
